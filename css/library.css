@@ -1,0 +1,19 @@
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+.button{
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 1.5rem;
+}
+.side-padding{
+    padding: 0 2rem;
+}
+.background{
+    background: var(--background-color);
+}
+.font2{
+    font-family: "Merriweather";
+}
