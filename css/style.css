@@ -3,16 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-:root{
-    --primary-color:#21837f;
-    --accent-color:#facb57;
-    --dark-accent:#1b2441;
-}
+
 html{
     scroll-behavior: smooth;
-}
-body{
-    font-family: "Roboto";
 }
 .links{
     gap: 2rem;
@@ -60,7 +53,7 @@ section:nth-child(1){
     padding-top: 7rem;
 }
 section:nth-child(1) img{
-    width: 35rem;
+    width: 50%;
 }
 section:nth-child(1) h1{
     font-size: 3rem;

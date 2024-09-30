@@ -1,7 +1,18 @@
-
+/* ROOT COLORS */
+:root{
+    --primary-color:#21837f;
+    --accent-color:#facb57;
+    --dark-accent:#1b2441;
+}  
 .flex{
     display: flex;
     align-items: center;
+}
+.font2{
+    font-family: "Merriweather";
+}
+.roboto{
+    font-family: "Roboto";
 }
 .button{
     border: none;
@@ -14,6 +25,23 @@
 .background{
     background: var(--background-color);
 }
-.font2{
-    font-family: "Merriweather";
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 3rem;
+}
+.top h1{
+    position: absolute;
+    bottom: 0;
+    font-weight: 900;
+    color: var(--accent-color);
+}
+.other{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
 }
