@@ -44,7 +44,7 @@ aside input{
     width: 80%;
     border-radius: 2rem;
     border: none;
-    box-shadow: 3px 5px 10px grey;
+    box-shadow: 1px 2px 0 grey;
     outline: none;
 }
 aside p{

@@ -47,4 +47,10 @@
 }
 button:hover{
     cursor: pointer;
-}   
+}
+.button-link, .button-link a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
