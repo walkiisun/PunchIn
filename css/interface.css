@@ -14,7 +14,12 @@ nav{
     /* border-bottom: black 1px solid; */
 }
 body{
+    padding-top: 2rem;
     color: black;
+    background: url(../images/Untitled\ design\ \(2\).png);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
 }
 nav img{
     width: 4rem;
@@ -40,9 +45,27 @@ main{
 main h2{
     font-size: 4rem;
     text-align: center;
+    color: white;
 }
 main button{
     background:white;
     color: black;
     box-shadow: 1px 2px 0 grey;
+}
+.dash{
+    display: flex;
+    justify-content: center;
+}
+.dash button{
+    padding: .5rem 3rem;
+    font-size: 1.3rem;
+}
+.clock button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 20rem;
+    font-size: 2rem;
 }

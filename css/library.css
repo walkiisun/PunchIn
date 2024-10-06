@@ -54,3 +54,10 @@ button:hover{
     justify-content: center;
     text-decoration: none;
 }
+.clock{
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 2rem;
+    padding: 0 3rem;
+    width: 100%;
+}
