@@ -61,3 +61,8 @@ button:hover{
     padding: 0 3rem;
     width: 100%;
 }
+.sorry{
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+}
