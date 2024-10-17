@@ -63,7 +63,7 @@ class EmployeeTest extends TestCase
         $result = $clockOutSystem->clockOut($employee, $reason, $additionalInput);
         $this->assertTrue($result);
     }
-    public function testAdminDash()
+    public function testAdminDash() //test for admin dashboard with right values
     {
 
         $admin = new Admin();
