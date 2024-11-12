@@ -1,0 +1,37 @@
+<?php
+session_start();
+
+
+if (!isset($_SESSION['User_ID']) || !isset($_SESSION['First_Name'])) {
+    header("Location: login.php");
+    exit();
+}
+
+$userID = $_SESSION['User_ID'];
+$userFirstName = $_SESSION['First_Name'];
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/noBackend.css">
+</head>
+<body class="roboto">
+    <header>
+        <nav class="flex">
+            <div class="logo flex">
+                <img src="images/art-removebg-preview.png" alt="">
+                <h1 class="font2">Punch In</h1>
+            </div>
+            <a href="login.php"><button class="flex"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M9 8V6a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-7a2 2 0 0 1-2-2v-2"/><path d="M3 12h13l-3-3m0 6l3-3"/></g></svg> Logout</button></a>
+        </nav>
+    </header>
+    <main>
+        <h2>Welcome, <?php echo htmlspecialchars($userFirstName); ?></h2>
+        <div class="sorry flex"><p>Sorry, there's no backend yet :(</p></div>
+    </main>
+</body>
+</html>
