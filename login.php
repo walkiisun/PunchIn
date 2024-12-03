@@ -5,7 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Database connection setup
     $servername = "127.0.0.1";
     $Username = "root";
-    $Password = "Monday14#";
+    $Password = "";
     $dbname = "mydb";
 
     // Create connection
