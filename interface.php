@@ -11,7 +11,7 @@ $userId = $_SESSION['User_ID'];
 
 $servername = "127.0.0.1";
 $Username = "root";
-$Password = "Monday14#";
+$Password = "";
 $dbname = "mydb";
 
 $conn = new mysqli($servername, $Username, $Password, $dbname);
